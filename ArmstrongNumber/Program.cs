@@ -14,9 +14,8 @@ namespace ArmstrongNumber
             Console.WriteLine("Enter the Number");
             int number = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(CheckingArmstrong.ToCheckArmstrong(number)
-                ? $"The number {number} is an Armstrong number."
-                : $"The number {number} is NOT an Armstrong number.");
+            Console.WriteLine(CheckingArmstrong.ToCheckArmstrong(number));
+               
         }
     }
 }
